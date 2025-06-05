@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginFragment">
+    <EditText
+        android:id="@+id/rgId"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:ems="10"
+        android:hint="Id"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/rgPwd"
+        app:layout_constraintEnd_toEndOf="@+id/rgId"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/rgId"
+        app:layout_constraintTop_toBottomOf="@+id/rgId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+    <EditText
+        android:id="@+id/rgName"
+        app:layout_constraintEnd_toEndOf="@+id/rgPwd"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/rgPwd"
+        app:layout_constraintTop_toBottomOf="@+id/rgPwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/rgBirth_year"
+        app:layout_constraintEnd_toEndOf="@+id/rgName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/rgName"
+        app:layout_constraintTop_toBottomOf="@+id/rgName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Birth_year"
+        android:inputType="number" />
+    <Button
+        android:id="@+id/btnRegister"
+        app:layout_constraintEnd_toEndOf="@+id/rgBirth_year"
+        app:layout_constraintStart_toStartOf="@+id/rgBirth_year"
+        app:layout_constraintTop_toBottomOf="@+id/rgBirth_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Register" />
+</androidx.constraintlayout.widget.ConstraintLayout>

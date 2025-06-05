@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MaterialDesign01" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/lightPurple</item>
+        <item name="colorPrimaryVariant">#978367</item>
+        <item name="colorOnPrimary">#000</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#B1D8DD</item>
+        <item name="colorSecondaryVariant">#1F565D</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Customize your theme here. -->
+
+    </style>
+
+
+    <style name="Theme.MaterialDesign" parent="Base.Theme.MaterialDesign01" />
+</resources>
